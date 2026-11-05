@@ -231,25 +231,15 @@ const Skills: React.FC<SkillsProps> = ({ onInView }) => {
               />
               <text
                 x={CX}
-                y={CY - 10}
+                y={CY + 7}
                 textAnchor="middle"
                 fill="#38050E"
-                fontSize={17}
+                fontSize={21}
                 fontFamily="'Cinzel', serif"
                 fontWeight={700}
+                letterSpacing="0.04em"
               >
-                Sonasha
-              </text>
-              <text
-                x={CX}
-                y={CY + 14}
-                textAnchor="middle"
-                fill="#38050E"
-                fontSize={17}
-                fontFamily="'Cinzel', serif"
-                fontWeight={700}
-              >
-                Choudhary
+                I Build
               </text>
             </svg>
           </div>
