@@ -61,7 +61,7 @@ const technicalStack = [
   { category: "Frontend Development",          items: "React.js, Next.js, Tailwind CSS, Shadcn UI, HTML5, CSS3, Bootstrap" },
   { category: "Backend Development",           items: "Node.js, Express.js, Flask, FastAPI, REST APIs, API Integration, JWT Authentication, bcrypt" },
   { category: "Databases & ORM",               items: "MongoDB, PostgreSQL, MySQL, Neon, Drizzle ORM, Mongoose" },
-  { category: "AI & Machine Learning",         items: "Generative AI, Agentic AI, LLMs, RAG, Google Gemini API, Prompt Engineering, Embeddings, Semantic Search, Scikit-learn" },
+  { category: "AI & Machine Learning",         items: "Generative AI, Agentic AI, LLMs, RAG, Google Gemini API, Prompt Engineering, Embeddings, Semantic Search, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn" },
   { category: "System Design & Architecture",  items: "Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks, LLD, HLD, System Architecture, Distributed Systems, Scalability, Caching, Performance Optimization" },
   { category: "Developer Tools",               items: "Git, GitHub, Docker, VS Code, Postman, Figma, Jupyter Notebook" },
   { category: "Deployment & DevOps",           items: "Docker, AWS, Vercel, Render" },
