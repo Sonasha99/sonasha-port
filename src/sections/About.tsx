@@ -44,7 +44,7 @@ const About: React.FC<AboutProps> = ({ onInView }) => {
       {/* ─────────────────────────────────────────────────────────────
           HERO & INTRO: HORIZONTALLY SCALED ACROSS FULL MAX-W-6XL
       ───────────────────────────────────────────────────────────── */}
-      <Section id="hero" number="01" onInView={onInView} className="pt-36 sm:pt-48 pb-20 border-b border-[#F4E8A4]/15" containerClassName="max-w-6xl">
+      <Section id="hero" number="01" onInView={onInView} className="pt-36 sm:pt-48 pb-20 border-b-0" containerClassName="max-w-6xl">
         <div className="w-full flex flex-col justify-center text-left space-y-12">
           {/* Name, Tagline & Buttons (Lower & smaller font as requested) */}
           <div className="pt-2 sm:pt-4">
@@ -77,7 +77,7 @@ const About: React.FC<AboutProps> = ({ onInView }) => {
           </div>
 
           {/* 1. Open to Roles (Pill tags with boundaries) */}
-          <div className="w-full pt-8 border-t border-[#F4E8A4]/15 space-y-3">
+          <div className="w-full space-y-3">
             <span className="text-xs font-mono uppercase tracking-[0.2em] font-semibold text-[#F4E8A4]/70 block">
               Open to Roles
             </span>
@@ -94,7 +94,7 @@ const About: React.FC<AboutProps> = ({ onInView }) => {
           </div>
 
           {/* 2. Education */}
-          <div className="w-full pt-8 border-t border-[#F4E8A4]/15">
+          <div className="w-full">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 w-full">
               <div className="space-y-1">
                 <div className="flex items-center gap-2 mb-1">
@@ -123,7 +123,7 @@ const About: React.FC<AboutProps> = ({ onInView }) => {
           </div>
 
           {/* 3. Core Focus (Pill tags with boundaries) */}
-          <div className="w-full pt-8 border-t border-[#F4E8A4]/15 space-y-3">
+          <div className="w-full space-y-3">
             <span className="text-xs font-mono uppercase tracking-[0.2em] font-semibold text-[#F4E8A4]/70 block">
               Core Focus
             </span>
