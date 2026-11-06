@@ -583,7 +583,7 @@ const NonRecruiterCorner: React.FC<NonRecruiterCornerProps> = ({ onBack }) => {
                   btwww how are you, how's your day goinggg?
                 </p>
                 <p className="text-xs font-mono text-[#F4E8A4]/70">
-                  whats your feedback on portfoilio ..like is it very very amazing
+                  whats your feedback on portfolio ..like is it very very amazing
                 </p>
               </div>
 
